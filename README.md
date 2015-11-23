@@ -148,7 +148,7 @@ Chọn tab Client export để export file :
 <img src = "http://i.imgur.com/Focau06.png">
 
 Chọn file phù hợp để cài đặt vào máy client. Ở đây, chọn Windows Installer : x64-win6 
-Copy sang máy client file vừa tải về từ Pfsense
+Sau đó copy sang máy client file vừa tải về từ Pfsense server 
 
 <img src = "http://i.imgur.com/6GO5Me8.png">
 
