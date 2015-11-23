@@ -38,6 +38,11 @@ Khi sử dụng những gói dữ liệu ACK dduwoj sắp xếp thứ tự ưu t
 
 Các firewall rule có thể được sắp xếp để nó chỉ có thể hoạt động vào các hời điểm nhất định trong ngày hoặc vào những ngày nhất định cụ thể hoặc các ngày trong tuần.
 
+
+#### 3.6 Virtual IPs
+
+Một virtual IPs có thể sử dụng bất kỳ địa chỉ IP của pfsense, đó không phải là một địa chỉ IP chính. Trong các tính huống khác nhau, mỗi trog số đó có các tính năng riêng của nó. 
+
 ###4.	Một số dịch vụ của Pfsense.
 #### 4.1	VPN
 
