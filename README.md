@@ -91,20 +91,82 @@ Chức năng cân bằng tải của Pfsense có những đặ điểm:
 
 <img src = "http://i.imgur.com/BMRSivp.png">
 
-<img src = " ">
+<img src = "http://i.imgur.com/Ujv5cdY.png">
 
-<img src = " ">
+Màn hình báo như này nghĩa là bạn đã cài đặt thành công: 
 
-<img src = " ">
+<img src = "http://i.imgur.com/8k7SPUT.png">
 
-<img src = " ">
-<img src = " ">
-<img src = " ">
-<img src = " ">
-<img src = " ">
-<img src = " ">
-<img src = " ">
-<img src = " ">
-<img src = " ">
+- Tạo chứng thực CAs để cấp phát cho Server và client ( chứng thực khi openvpn) 
+
+<img src = "http://i.imgur.com/ReG8x0K.png">
+
+<img src = "http://i.imgur.com/yeq5bsr.png">
+
+<img src = "http://i.imgur.com/at5UILF.png">
+
+- Tạo user 
+
+<img src = "http://i.imgur.com/lhNziWd.png">
+
+<img src = "http://i.imgur.com/febDoqO.png">
+
+<img src = "http://i.imgur.com/bO6LpDF.png">
+
+***Chú ý:*** Chọn Certificate Authority chính là CAs bạn vừa tạo
+
+<img src = "http://i.imgur.com/NoKMbFk.png">
+
+-	Cấu hình trên Pfsense server:
+
+<img src = "http://i.imgur.com/XRk6Kao.png">
+
+<img src = "http://i.imgur.com/wca6wvB.png">
+
+<img src = "http://i.imgur.com/HvEo4cI.png">
+
+<img src = "http://i.imgur.com/wca6wvB.png">
+
+<img src = "http://i.imgur.com/lc3QFBp.png">
+
+<img src = "http://i.imgur.com/btHcLjh.png">
+
+<img src = "http://i.imgur.com/v9Lm1Rg.png">
+
+<img src = "http://i.imgur.com/0Sf4Lg9.png">
+
+<img src = " http://i.imgur.com/WVSoTfA.png">
+
+<img src = " http://i.imgur.com/OEz3BQS.png">
+
+<img src = "http://i.imgur.com/NcvZ7hS.png">
+
+<img src = "http://i.imgur.com/ZSkefwC.png">
+
+Chọn tab Client export để export file :
+
+<img src = "http://i.imgur.com/Focau06.png">
+
+Chọn file phù hợp để cài đặt vào máy client. Ở đây, chọn Windows Installer : x64-win6 
+Copy sang máy client file vừa tải về từ Pfsense
+
+<img src = "http://i.imgur.com/6GO5Me8.png">
+
+<img src = "http://i.imgur.com/ktpLkZ7.png">
+
+Click chuột phải vào OpenVPN GUI -> Run as administrator 
+
+<img src = "http://i.imgur.com/cg6KEM1.png">
+
+<img src = "http://i.imgur.com/Hqr7zF1.png">
+
+Điền username " thomhanu" password: 123456: chính là user tạo ở trên.
+
+<img src = "http://i.imgur.com/LPypzKN.png">
+
+Kết nói OpenVPN thành công, client nhận địa chỉ ip từ server là 10.10.10.6
+
+<img src = "http://i.imgur.com/43l8irg.png">
+
 
 
