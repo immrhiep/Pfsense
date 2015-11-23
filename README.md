@@ -71,3 +71,40 @@ Chức năng cân bằng tải của Pfsense có những đặ điểm:
 -	Không được hỗ trò từ nhà sản xuất như các thiết bị cân bằng tải khác
 -	Vẫn chưa có tính năng lọc URL như các thiết bị thương mại.
 -	Đòi hỏi người sử dụng phải có kiến thức cơ bản về mạng để cấu hình.
+
+
+### 5. Hướng dẫn lab mô hình client to site OpenVPN trên Pfsense
+
+**Mô hình** 
+
+<img src = "http://i.imgur.com/cbUMoj8.png">
+
+**Yêu cầu**
+
+- Một máy Pfsense server có hai card mạng, 1 card bridge và 1 card private
+-	Một máy client- window 7
+
+
+**Cài đặt:** 
+
+-	Cài gói Openvpn Client Export Ultility trên Pfsense
+
+<img src = "http://i.imgur.com/BMRSivp.png">
+
+<img src = " ">
+
+<img src = " ">
+
+<img src = " ">
+
+<img src = " ">
+<img src = " ">
+<img src = " ">
+<img src = " ">
+<img src = " ">
+<img src = " ">
+<img src = " ">
+<img src = " ">
+<img src = " ">
+
+
