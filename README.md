@@ -57,7 +57,7 @@ DHCP server chỉnh cấu hình cho mạng TCP/IP bằng cách tự động gán
 
 #### 4.3	Load Balancer.
 
-Chức năng cân bằng tải của Pfsense có những đặ điểm:
+Chức năng cân bằng tải của Pfsense có những đặc điểm:
 
 **Ưu điểm:**
 
